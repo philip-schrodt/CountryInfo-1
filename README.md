@@ -12,18 +12,21 @@ and national leaders. It covers about 240 countries and administrative units
 (e.g. American Samoa, Christmas Island, Hong Kong, Greenland). It is internally documented 
 and almost but not quite XML.
 
-Location on the web:  http://eventdata.parusanalytics.com/software.dir/dictionaries.html
-
 Files:
 
-CountryInfo.120116.txt: main file
+CountryInfo.120116.txt: initial version of file
+
+CountryInfo.140728.txt: 
+Revision which has TABARI-style date restrictions on countries which became independent 
+in the post-1989 period (mostly former Soviet Union and former Yugoslavia) plus some
+additional small corrections. 
 
 format.rulers.org.pl: 
 This Perl program translates one or more lines from the Rulers.org web site into the 
 CountryInfo.txt format. rulers.org is almost but not quite consistent, so this was a
 utility used in the original development of the file; it might be useful for updates.
 
-dict.countrycodes.pl: 
-This Perl program combines the generic international code file CountryCodes.txt and
-individual country files for the ICEWS countries, and produces a TABARI-compatible
-file International.draft.actors.
+translate.countryinfo.pl: 
+This Perl program translates the CountryInfo.120116.txt file in a TABARI-compatible
+file CountryInfo.YYMMDD.actors with some duplicate detection. It has not been modified
+to work with the date-restricted country codes in 
