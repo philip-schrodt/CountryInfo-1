@@ -30,3 +30,10 @@ translate.countryinfo.pl:
 This Perl program translates the CountryInfo.120116.txt file in a TABARI-compatible
 file CountryInfo.YYMMDD.actors with some duplicate detection. It has not been modified
 to work with the date-restricted country codes in 
+
+PITF_to_ISO3166.txt
+A Python dictionary that should get you most of the way to translating between 
+the Political Instability Task Force  country codes (SFTGCODE) to the ISO-3166-alpha3 
+codes used in ICEWS, Phoenix and pretty much everywhere else. This was done for a specific 
+project and may not have all of the codes but should have most of them. Easier than reading
+the full CountryInfo file if all you need is this translation.
