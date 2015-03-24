@@ -2,8 +2,8 @@ This is a Python dictionary that should get you most of the way to translating b
 country codes (SFTGCODE) to the ISO-3166-alpha3 codes used in ICEWS, Phoenix and pretty much everywhere else. This was
 done for a specific project and may not have all of the codes but should have most of them.
 
-Key is the PITF code; value is the ISO code. Only the codes that are different between the two systems are included, so you
-will want something like the following in your code:
+The PITF2ISO dictionary key is the PITF code; the value is the ISO code. Only the codes that are different between the two 
+system are included, so you will want something like the following in your code:
 
     if natcode in PITF2ISO.keys():
         natcode = PITF2ISO[natcode]
@@ -12,13 +12,13 @@ PITF codes are apparently fairly similar to COW codes so this will probably also
 list, use the CountryInfo file in this repo.
 
 PITF2ISO = {
-    'ALG': 'DZA', 'ANG': 'AGO', 'AUL': 'AUS', 'BAH': 'BHS', 'BFO': 'BFA', 'BHU': 'BTN',  'BNG': 'BGD', 'BOS': 'BIH', 
+    'ALG': 'DZA', 'ANG': 'AGO', 'AUL': 'AUS', 'BAH': 'BHR', 'BFO': 'BFA', 'BHU': 'BTN',  'BNG': 'BGD', 'BOS': 'BIH', 
     'BOT': 'BWA', 'BUI': 'BDI', 'BUL': 'BGR', 'CAM': 'KHM', 'CAO': 'CMR', 'CAP': 'CPV', 'CEN': 'CAF',  'CHA': 'TCD', 
     'CON': 'COG', 'COS': 'CRI', 'CRO': 'HRV', 'CZR': 'CZE', 'DEN': 'DNK', 'EQG': 'GNQ', 'ETI': 'ETH', 
     'FRN': 'FRA', 'GAM': 'GMB', 'GER': 'DEU', 'GRG': 'GEO', 'GUA': 'GTM', 'GUI': 'GIN', 'HAI': 'HTI', 'HON': 'HND', 
     'INS': 'IND', 'IRE': 'IRL', 'IVO': 'CIV', 'KUW': 'KWT', 'KYR': 'KGZ', 'KZK': 'KAZ', 'LAT': 'LVA', 'LEB': 'LBN', 
     'LES': 'LSO', 'LIB': 'LBY', 'LIT': 'LTU', 'MAA': 'MRT', 'MAC': 'MKD', 'MAG': 'MDG', 'MAL': 'MLI', 'MAS': 'MUS', 
-    'MAW': 'MWI', 'MLD': 'MDA', 'MON': 'MNE', 'MOR': 'MAR', 'MYA': 'MMR', 'MZM': 'MOZ', 'NEP': 'NPL', 'NEW': 'NZL', 
+    'MAW': 'MWI', 'MLD': 'MDA', 'MON': 'MNG', 'MOR': 'MAR', 'MYA': 'MMR', 'MZM': 'MOZ', 'NEP': 'NPL', 'NEW': 'NZL', 
     'NIG': 'NGA', 'NIR': 'NER', 'NTH': 'NLD', 'OMA': 'OMN', 'PAR': 'PRY', 'PHI': 'PHL', 'POR': 'PRT', 'ROK': 'KOR', 
     'RUM': 'ROU', 'SAF': 'ZAF', 'SAL': 'SLV', 'SIE': 'SLE', 'SIN': 'SGP', 'SLO': 'SVK', 'SLV': 'SVN', 'SOL': 'SLB', 
     'SPN': 'ESP', 'SRI': 'LKA', 'SUD': 'SDN', 'SWA': 'SWZ', 'SWD': 'SWE', 'TAJ': 'TJK', 'TAW': 'TWN', 'TAZ': 'TZA', 
