@@ -1385,7 +1385,7 @@ THE SOFTWARE.
 	GEVORG_GEVORGYAN_	[ARMGOVMED 20060301 - 20060531]	# Minister of Culture and Youth
 	GEVORG_PETROSIAN_	[ARMGOVLAB 20090601 - 20091131]	# Minister of Labor and Social Affairs
 	GURGEN_SARGSIAN_	[ARMGOVBUS 20080501 - 20100331]	# Minister of Transport and Communication
-	HAIK_HARUTYUNIAN_	[ARMGOV <20030131]	# Minister of Interior
+	HAIK_HARUTYUNIAN_	[ARMGOV <20030131]	# Minister of Interior 
 	HARUTYUN_KUSHKIAN_	[ARMGOVHLH >20070701]	# Minister of Health
 	HASMIK_POGHOSIAN_	[ARMGOVMED >20060601]	# Minister of Culture and Youth
 	{HOVIK_ABRAHAMYAN_}{HOVIK_ABRAHAMIAN_} [ARMGOV 20050601 - 20080931]	# Minister of Territorial Administration 
@@ -19392,11 +19392,11 @@ Pres.
 <CountryName>MYANMAR</CountryName>
 <COW-Alpha>MYA</COW-Alpha>
 <COW-Numeric>775</COW-Numeric>
-<FIPS-10>MZ</FIPS-10>
+<FIPS-10>BM</FIPS-10>
 <IMF>518</IMF>
-<ISO3166-alpha2>MZ</ISO3166-alpha2>
-<ISO3166-numeric>508</ISO3166-numeric>
-<ISO3166-alpha3>MOZ</ISO3166-alpha3>
+<ISO3166-alpha2>MM</ISO3166-alpha2>
+<ISO3166-numeric>104</ISO3166-numeric>
+<ISO3166-alpha3>MMR</ISO3166-alpha3>
 <Nationality>
 	MYANMARESE_
 	BURMESE_
